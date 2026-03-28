@@ -1,0 +1,35 @@
+{
+  "id": "financial-planning",
+  "title": "Financial Planning and Goals",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Financial Planning?",
+      "text": "Financial planning is the process of managing your money to achieve life goals."
+    },
+    {
+      "heading": "Why Goals Matter",
+      "text": "Goals give direction, improve discipline, and help track progress."
+    },
+    {
+      "heading": "Types of Goals",
+      "text": "Short-term (0–1 year)\nMedium-term (1–5 years)\nLong-term (5+ years)"
+    },
+    {
+      "heading": "SMART Goals",
+      "text": "Specific, Measurable, Achievable, Relevant, Time-bound."
+    },
+    {
+      "heading": "Steps to Plan",
+      "text": "1. Identify goals\n2. Analyze finances\n3. Budget\n4. Save and invest\n5. Review regularly"
+    },
+    {
+      "heading": "Prioritization",
+      "text": "Focus first on needs, emergency fund, and debt before lifestyle goals."
+    },
+    {
+      "heading": "Common Mistakes",
+      "text": "- Unrealistic goals\n- Ignoring inflation\n- Not reviewing plans"
+    }
+  ]
+}

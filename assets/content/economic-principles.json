@@ -1,0 +1,35 @@
+{
+  "id": "economic-principles",
+  "title": "Economic Principles",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Economics?",
+      "text": "Economics studies how people use limited resources to meet unlimited wants."
+    },
+    {
+      "heading": "Scarcity",
+      "text": "Resources are limited, so choices must be made."
+    },
+    {
+      "heading": "Supply and Demand",
+      "text": "Supply is availability; demand is willingness to buy.\nPrices change based on both."
+    },
+    {
+      "heading": "Inflation",
+      "text": "Increase in prices over time reduces purchasing power."
+    },
+    {
+      "heading": "Opportunity Cost",
+      "text": "The value of the next best alternative you give up."
+    },
+    {
+      "heading": "Economic Cycles",
+      "text": "Expansion → Peak → Recession → Recovery"
+    },
+    {
+      "heading": "Impact on Finance",
+      "text": "Affects jobs, prices, savings, and investment decisions."
+    }
+  ]
+}

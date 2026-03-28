@@ -1,0 +1,39 @@
+{
+  "id": "loans",
+  "title": "Understanding Loans",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is a Loan?",
+      "text": "A loan is money borrowed from a lender that must be repaid with interest over time."
+    },
+    {
+      "heading": "Key Components",
+      "text": "Principal (amount borrowed), interest, tenure, EMI (monthly payment)."
+    },
+    {
+      "heading": "Types of Loans",
+      "text": "- Personal loan\n- Education loan\n- Home loan\n- Vehicle loan"
+    },
+    {
+      "heading": "Secured vs Unsecured",
+      "text": "Secured loans require collateral and have lower interest.\nUnsecured loans do not require collateral but have higher interest."
+    },
+    {
+      "heading": "Interest Types",
+      "text": "Fixed interest remains constant.\nFloating interest changes with market conditions."
+    },
+    {
+      "heading": "Total Cost",
+      "text": "Total cost = principal + interest + additional charges."
+    },
+    {
+      "heading": "Risks of Default",
+      "text": "Missed payments can lead to penalties, lower credit score, and legal action."
+    },
+    {
+      "heading": "Smart Borrowing",
+      "text": "Borrow only what you need and ensure you can repay comfortably."
+    }
+  ]
+}

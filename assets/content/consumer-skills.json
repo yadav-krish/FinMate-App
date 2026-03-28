@@ -1,0 +1,35 @@
+{
+  "id": "consumer-skills",
+  "title": "Consumer Skills and Protection",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What are Consumer Skills?",
+      "text": "Skills to make informed decisions when buying goods and services."
+    },
+    {
+      "heading": "Why Important",
+      "text": "Prevents fraud, saves money, and ensures quality purchases."
+    },
+    {
+      "heading": "Smart Buying Tips",
+      "text": "- Compare prices\n- Check quality\n- Read reviews\n- Evaluate need vs want"
+    },
+    {
+      "heading": "Warranties and Guarantees",
+      "text": "Warranties cover repairs; guarantees ensure satisfaction."
+    },
+    {
+      "heading": "Consumer Rights",
+      "text": "Right to safety, information, choice, and redressal."
+    },
+    {
+      "heading": "Online Safety",
+      "text": "Use trusted sites, avoid scams, and secure payments."
+    },
+    {
+      "heading": "Common Mistakes",
+      "text": "- Buying without research\n- Ignoring return policies\n- Falling for fake discounts"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "entrepreneurship",
+  "title": "Entrepreneurship",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Entrepreneurship?",
+      "text": "Entrepreneurship is starting and managing a business to create value and earn profit."
+    },
+    {
+      "heading": "Why Important",
+      "text": "Creates jobs, drives innovation, and builds financial independence."
+    },
+    {
+      "heading": "Business Ideas",
+      "text": "Ideas can come from skills, hobbies, or solving problems."
+    },
+    {
+      "heading": "Business Plan",
+      "text": "Includes idea, target market, revenue model, costs, and marketing strategy."
+    },
+    {
+      "heading": "Funding Options",
+      "text": "- Savings\n- Loans\n- Investors\n- Crowdfunding"
+    },
+    {
+      "heading": "Financial Responsibilities",
+      "text": "Manage income, expenses, taxes, and pricing."
+    },
+    {
+      "heading": "Steps to Start",
+      "text": "Idea → Research → Plan → Fund → Launch → Improve"
+    }
+  ]
+}

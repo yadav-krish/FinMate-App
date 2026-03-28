@@ -1,0 +1,35 @@
+{
+  "id": "retirement",
+  "title": "Retirement Planning",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Retirement Planning?",
+      "text": "Preparing financially for life after you stop working."
+    },
+    {
+      "heading": "Why Important",
+      "text": "No regular income, rising expenses, and longer life expectancy."
+    },
+    {
+      "heading": "Start Early",
+      "text": "Early investing allows more time for compounding."
+    },
+    {
+      "heading": "Savings Options",
+      "text": "- EPF\n- PPF\n- NPS\n- Mutual funds"
+    },
+    {
+      "heading": "How Much to Save",
+      "text": "Save 15–20% of income for long-term goals."
+    },
+    {
+      "heading": "Steps",
+      "text": "Set goals → estimate expenses → invest regularly → review plan."
+    },
+    {
+      "heading": "Common Mistakes",
+      "text": "- Starting late\n- Ignoring inflation\n- Not investing"
+    }
+  ]
+}

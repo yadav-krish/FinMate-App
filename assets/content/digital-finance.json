@@ -1,0 +1,35 @@
+{
+  "id": "digital-finance",
+  "title": "Digital Finance and Online Banking",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Digital Finance?",
+      "text": "Digital finance uses technology to manage money online."
+    },
+    {
+      "heading": "Online Banking",
+      "text": "Allows checking balance, transferring money, and paying bills online."
+    },
+    {
+      "heading": "Mobile Payments",
+      "text": "Apps like UPI enable instant money transfers and payments."
+    },
+    {
+      "heading": "Digital Wallets",
+      "text": "Store money digitally for online transactions."
+    },
+    {
+      "heading": "Cryptocurrency",
+      "text": "Digital currency using encryption; high risk and volatility."
+    },
+    {
+      "heading": "Benefits",
+      "text": "- Convenience\n- Speed\n- Accessibility\n- Transparency"
+    },
+    {
+      "heading": "Safety Tips",
+      "text": "- Use strong passwords\n- Enable 2FA\n- Avoid public Wi-Fi\n- Never share OTP"
+    }
+  ]
+}

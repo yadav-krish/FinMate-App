@@ -1,9 +1,20 @@
 import { useState } from "react";
-import { Pressable, ScrollView, Text, TextInput, View, ActivityIndicator } from "react-native";
+import {
+  Pressable,
+  ScrollView,
+  Text,
+  TextInput,
+  View,
+  ActivityIndicator,
+} from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../types/navigation";
 import { useOnboarding } from "../hooks/useOnboarding";
-import { CONFIDENCE_LEVELS, TRACKING_FREQUENCIES, MONEY_GOALS } from "../services/ai/prompts";
+import {
+  CONFIDENCE_LEVELS,
+  TRACKING_FREQUENCIES,
+  MONEY_GOALS,
+} from "../services/ai/prompts";
 
 type Props = NativeStackScreenProps<RootStackParamList, "Onboarding">;
 
@@ -30,17 +41,25 @@ function OptionSelector({ options, selected, onSelect }: OptionSelectorProps) {
           >
             <View className="flex-row items-center justify-between">
               <View>
-                <Text className={`font-semibold ${isSelected ? "text-emerald-300" : "text-white"}`}>
+                <Text
+                  className={`font-semibold ${isSelected ? "text-emerald-300" : "text-white"}`}
+                >
                   {option.label}
                 </Text>
-                <Text className="mt-1 text-xs text-slate-400">{option.description}</Text>
+                <Text className="mt-1 text-xs text-slate-400">
+                  {option.description}
+                </Text>
               </View>
               <View
                 className={`h-5 w-5 rounded-full border-2 ${
-                  isSelected ? "border-emerald-400 bg-emerald-400" : "border-slate-600"
+                  isSelected
+                    ? "border-emerald-400 bg-emerald-400"
+                    : "border-slate-600"
                 }`}
               >
-                {isSelected && <View className="h-full w-full rounded-full bg-emerald-400" />}
+                {isSelected && (
+                  <View className="h-full w-full rounded-full bg-emerald-400" />
+                )}
               </View>
             </View>
           </Pressable>
@@ -59,7 +78,9 @@ function LoadingState({ message }: LoadingStateProps) {
     <View className="flex-1 items-center justify-center">
       <View className="rounded-3xl border border-emerald-500/20 bg-slate-900/80 p-8">
         <ActivityIndicator size="large" color="#34d399" className="mb-4" />
-        <Text className="text-center text-base font-medium text-emerald-300">{message}</Text>
+        <Text className="text-center text-base font-medium text-emerald-300">
+          {message}
+        </Text>
         <Text className="mt-2 text-center text-xs text-slate-400">
           This usually takes a few seconds...
         </Text>
@@ -135,7 +156,9 @@ export default function OnboardingScreen({ navigation }: Props) {
 
                 <View className="flex-1">
                   <View className="flex-row items-center justify-between">
-                    <Text className={`text-base font-semibold ${step.isLocked ? "text-slate-400" : "text-white"}`}>
+                    <Text
+                      className={`text-base font-semibold ${step.isLocked ? "text-slate-400" : "text-white"}`}
+                    >
                       {step.title}
                     </Text>
                     {step.isLocked && (
@@ -144,9 +167,47 @@ export default function OnboardingScreen({ navigation }: Props) {
                       </View>
                     )}
                   </View>
-                  <Text className={`mt-1 text-sm ${step.isLocked ? "text-slate-500" : "text-slate-300"}`}>
+                  <Text
+                    className={`mt-1 text-sm ${step.isLocked ? "text-slate-500" : "text-slate-300"}`}
+                  >
                     {step.description}
                   </Text>
+
+                  {!!step.estimatedMinutes && (
+                    <View className="mt-2 self-start rounded-full bg-slate-800/70 px-3 py-1.5">
+                      <Text className="text-xs text-slate-300">
+                        {step.level ? `${step.level} • ` : ""}
+                        {step.estimatedMinutes} min
+                      </Text>
+                    </View>
+                  )}
+
+                  {!!step.whyThisModule && (
+                    <View className="mt-3 rounded-2xl border border-slate-800 bg-slate-900/60 p-3">
+                      <Text className="text-xs uppercase tracking-widest text-slate-500">
+                        Why this step
+                      </Text>
+                      <Text
+                        className={`mt-1 text-xs ${step.isLocked ? "text-slate-600" : "text-slate-300"}`}
+                      >
+                        {step.whyThisModule}
+                      </Text>
+                    </View>
+                  )}
+
+                  {!!step.actionItems?.length && (
+                    <View className="mt-3 gap-1">
+                      {step.actionItems.slice(0, 2).map((item, itemIndex) => (
+                        <Text
+                          key={`${step.moduleId ?? index}-${itemIndex}`}
+                          className={`text-xs ${step.isLocked ? "text-slate-600" : "text-slate-300"}`}
+                        >
+                          • {item}
+                        </Text>
+                      ))}
+                    </View>
+                  )}
+
                   {!step.isLocked && (
                     <View className="mt-3 flex-row items-center gap-2">
                       <View className="rounded-full bg-emerald-500/20 px-3 py-1">
@@ -166,7 +227,9 @@ export default function OnboardingScreen({ navigation }: Props) {
           className="mt-8 items-center rounded-full bg-emerald-400 px-4 py-4"
           onPress={() => navigation.navigate("Home")}
         >
-          <Text className="text-sm font-semibold text-slate-950">Start Learning</Text>
+          <Text className="text-sm font-semibold text-slate-950">
+            Start Learning
+          </Text>
         </Pressable>
 
         <View className="h-8" />
@@ -180,7 +243,9 @@ export default function OnboardingScreen({ navigation }: Props) {
         return (
           <>
             <Text className="text-sm text-slate-400">Step 1 of 3</Text>
-            <Text className="mt-2 text-xl font-bold text-white">What's your money goal?</Text>
+            <Text className="mt-2 text-xl font-bold text-white">
+              What's your money goal?
+            </Text>
             <OptionSelector
               options={MONEY_GOALS}
               selected={moneyGoal}

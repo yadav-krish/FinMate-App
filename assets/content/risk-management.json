@@ -1,0 +1,35 @@
+{
+  "id": "insurance",
+  "title": "Insurance",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Insurance?",
+      "text": "Insurance is protection against financial loss in unexpected situations."
+    },
+    {
+      "heading": "Why Insurance is Important",
+      "text": "It protects savings, reduces risk, and provides financial security."
+    },
+    {
+      "heading": "Key Terms",
+      "text": "Premium, policy, claim, coverage, sum assured."
+    },
+    {
+      "heading": "Types of Insurance",
+      "text": "- Health insurance\n- Life insurance\n- Motor insurance\n- Property insurance"
+    },
+    {
+      "heading": "How it Works",
+      "text": "Pay premium → risk occurs → claim → receive compensation."
+    },
+    {
+      "heading": "Factors to Consider",
+      "text": "Coverage, cost, claim ratio, exclusions."
+    },
+    {
+      "heading": "Common Mistakes",
+      "text": "- Low coverage\n- Ignoring terms\n- Delaying purchase"
+    }
+  ]
+}

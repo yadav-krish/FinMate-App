@@ -1,0 +1,39 @@
+{
+  "id": "credit-debt",
+  "title": "Credit and Debt",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Credit?",
+      "text": "Credit is borrowed money used to purchase goods or services, to be repaid later with interest."
+    },
+    {
+      "heading": "What is Debt?",
+      "text": "Debt is the total amount owed after borrowing money."
+    },
+    {
+      "heading": "Types of Credit",
+      "text": "- Credit cards\n- Personal loans\n- Student loans\n- Mortgages"
+    },
+    {
+      "heading": "How Credit Works",
+      "text": "You borrow → use → repay with interest.\n\nIncludes principal and interest."
+    },
+    {
+      "heading": "Credit Score",
+      "text": "A number representing your creditworthiness.\nHigher score = better loan terms."
+    },
+    {
+      "heading": "Good vs Bad Debt",
+      "text": "Good debt: education, business\nBad debt: unnecessary spending"
+    },
+    {
+      "heading": "Risks",
+      "text": "- Debt trap\n- High interest\n- Financial stress"
+    },
+    {
+      "heading": "Smart Tips",
+      "text": "- Pay on time\n- Avoid excess borrowing\n- Maintain low credit usage"
+    }
+  ]
+}

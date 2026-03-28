@@ -1,0 +1,35 @@
+{
+  "id": "real-estate",
+  "title": "Real Estate Basics",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Real Estate?",
+      "text": "Real estate includes land and buildings used for living or investment."
+    },
+    {
+      "heading": "Why Invest",
+      "text": "Property can generate rental income and long-term value growth."
+    },
+    {
+      "heading": "Buying Property",
+      "text": "Set budget → choose location → arrange financing → verify documents."
+    },
+    {
+      "heading": "Importance of Location",
+      "text": "Location determines property value and future growth."
+    },
+    {
+      "heading": "Costs",
+      "text": "- Property price\n- Loan EMI\n- Taxes\n- Maintenance"
+    },
+    {
+      "heading": "Mortgage",
+      "text": "A loan used to buy property, repaid over long periods."
+    },
+    {
+      "heading": "Risks",
+      "text": "- High investment\n- Low liquidity\n- Market fluctuations"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "fraud-prevention",
+  "title": "Identity Theft and Fraud Prevention",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Identity Theft?",
+      "text": "Identity theft is the misuse of your personal or financial information."
+    },
+    {
+      "heading": "Common Types of Fraud",
+      "text": "- Phishing\n- Online scams\n- Banking fraud\n- SIM swap fraud"
+    },
+    {
+      "heading": "Warning Signs",
+      "text": "Unknown transactions, unexpected OTPs, and suspicious messages."
+    },
+    {
+      "heading": "Protection Tips",
+      "text": "- Never share OTP or PIN\n- Use secure websites\n- Keep data private"
+    },
+    {
+      "heading": "Strong Passwords",
+      "text": "Use complex passwords and enable two-factor authentication."
+    },
+    {
+      "heading": "Monitoring",
+      "text": "Check bank statements regularly and enable alerts."
+    },
+    {
+      "heading": "If Fraud Happens",
+      "text": "Inform bank immediately, change passwords, and report the issue."
+    }
+  ]
+}

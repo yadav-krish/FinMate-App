@@ -1,0 +1,35 @@
+{
+  "id": "banking",
+  "title": "Banking and Financial Institutions",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What is Banking?",
+      "text": "Banking involves managing money through financial institutions."
+    },
+    {
+      "heading": "Types of Accounts",
+      "text": "- Savings account\n- Current account\n- Fixed deposits\n- Recurring deposits"
+    },
+    {
+      "heading": "Services",
+      "text": "- Deposits\n- Loans\n- Digital payments\n- Investment services"
+    },
+    {
+      "heading": "Types of Institutions",
+      "text": "- Commercial banks\n- Cooperative banks\n- Credit unions\n- NBFCs"
+    },
+    {
+      "heading": "Credit Union vs Bank",
+      "text": "Credit unions are member-owned.\nBanks are profit-driven institutions."
+    },
+    {
+      "heading": "Deposit Safety",
+      "text": "Deposits are insured up to ₹5,00,000 in India."
+    },
+    {
+      "heading": "Choosing a Bank",
+      "text": "Consider interest rates, fees, accessibility, and security."
+    }
+  ]
+}

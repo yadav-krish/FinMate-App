@@ -42,7 +42,9 @@ function RoadmapCard({ step, index, total }: RoadmapCardProps) {
             {isLocked ? (
               <Text className="text-sm font-bold text-slate-600">🔒</Text>
             ) : (
-              <Text className="text-sm font-bold text-emerald-300">{index + 1}</Text>
+              <Text className="text-sm font-bold text-emerald-300">
+                {index + 1}
+              </Text>
             )}
           </View>
 
@@ -64,13 +66,52 @@ function RoadmapCard({ step, index, total }: RoadmapCardProps) {
               {step.description}
             </Text>
 
+            {!!step.estimatedMinutes && (
+              <View className="mt-3 self-start rounded-full bg-slate-800/70 px-3 py-1.5">
+                <Text className="text-xs text-slate-300">
+                  {step.level ? `${step.level} • ` : ""}
+                  {step.estimatedMinutes} min
+                </Text>
+              </View>
+            )}
+
+            {!!step.whyThisModule && (
+              <View className="mt-3 rounded-2xl border border-slate-800 bg-slate-900/60 p-3">
+                <Text className="text-xs uppercase tracking-widest text-slate-500">
+                  Why this step
+                </Text>
+                <Text
+                  className={`mt-1 text-xs ${isLocked ? "text-slate-600" : "text-slate-300"}`}
+                >
+                  {step.whyThisModule}
+                </Text>
+              </View>
+            )}
+
+            {!!step.actionItems?.length && (
+              <View className="mt-3 gap-1">
+                {step.actionItems.slice(0, 2).map((item, idx) => (
+                  <Text
+                    key={`${step.moduleId ?? index}-${idx}`}
+                    className={`text-xs ${isLocked ? "text-slate-600" : "text-slate-300"}`}
+                  >
+                    • {item}
+                  </Text>
+                ))}
+              </View>
+            )}
+
             {!isLocked && (
               <View className="mt-4 flex-row items-center gap-2">
                 <View className="rounded-full bg-emerald-500/20 px-3 py-1.5">
-                  <Text className="text-xs font-bold text-emerald-300">+{step.xpValue} XP</Text>
+                  <Text className="text-xs font-bold text-emerald-300">
+                    +{step.xpValue} XP
+                  </Text>
                 </View>
                 <View className="rounded-full bg-emerald-500/10 px-3 py-1.5">
-                  <Text className="text-xs font-medium text-emerald-400/80">In Progress</Text>
+                  <Text className="text-xs font-medium text-emerald-400/80">
+                    In Progress
+                  </Text>
                 </View>
               </View>
             )}
@@ -130,7 +171,10 @@ export default function HomeScreen({ navigation }: Props) {
   }
 
   return (
-    <ScrollView className="flex-1 bg-slate-950 px-6 pt-12" showsVerticalScrollIndicator={false}>
+    <ScrollView
+      className="flex-1 bg-slate-950 px-6 pt-12"
+      showsVerticalScrollIndicator={false}
+    >
       {/* Header */}
       <View className="flex-row items-center justify-between">
         <View>
@@ -153,19 +197,24 @@ export default function HomeScreen({ navigation }: Props) {
         <View className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-5">
           <View className="flex-row items-center gap-2">
             <View className="h-2 w-2 rounded-full bg-emerald-400" />
-            <Text className="text-xs uppercase tracking-widest text-emerald-300">Start here</Text>
+            <Text className="text-xs uppercase tracking-widest text-emerald-300">
+              Start here
+            </Text>
           </View>
           <Text className="mt-3 text-lg font-semibold text-white">
             Build your money roadmap
           </Text>
           <Text className="mt-2 text-sm text-slate-300">
-            Complete onboarding to get a personalized learning roadmap and smart money insights.
+            Complete onboarding to get a personalized learning roadmap and smart
+            money insights.
           </Text>
           <Pressable
             className="mt-5 items-center rounded-full bg-emerald-400 px-4 py-3"
             onPress={() => navigation.navigate("Onboarding")}
           >
-            <Text className="text-sm font-semibold text-slate-950">Start onboarding</Text>
+            <Text className="text-sm font-semibold text-slate-950">
+              Start onboarding
+            </Text>
           </Pressable>
         </View>
       )}
@@ -202,7 +251,9 @@ export default function HomeScreen({ navigation }: Props) {
       {/* Today's Lesson (hidden if roadmap exists) */}
       {!hasRoadmap && (
         <View className="mt-6">
-          <Text className="text-sm uppercase tracking-widest text-slate-400">Today</Text>
+          <Text className="text-sm uppercase tracking-widest text-slate-400">
+            Today
+          </Text>
           <View className="mt-3 rounded-3xl border border-slate-800 bg-slate-900 p-5">
             <Text className="text-base font-semibold text-white">
               Learn the basics of budgeting
@@ -211,7 +262,9 @@ export default function HomeScreen({ navigation }: Props) {
               10-minute lesson + 2 quick questions.
             </Text>
             <View className="mt-4 flex-row items-center justify-between">
-              <Text className="text-xs uppercase tracking-widest text-slate-400">Progress</Text>
+              <Text className="text-xs uppercase tracking-widest text-slate-400">
+                Progress
+              </Text>
               <Text className="text-sm font-semibold text-emerald-300">0%</Text>
             </View>
             <View className="mt-2 h-2 w-full overflow-hidden rounded-full bg-slate-800">
@@ -224,13 +277,21 @@ export default function HomeScreen({ navigation }: Props) {
       {/* Quick Stats */}
       <View className="mt-6 flex-row gap-3">
         <View className="flex-1 rounded-3xl border border-slate-800 bg-slate-900 p-4">
-          <Text className="text-xs uppercase tracking-widest text-slate-400">Goal</Text>
-          <Text className="mt-2 text-base font-semibold text-white">Save 5,000 INR</Text>
+          <Text className="text-xs uppercase tracking-widest text-slate-400">
+            Goal
+          </Text>
+          <Text className="mt-2 text-base font-semibold text-white">
+            Save 5,000 INR
+          </Text>
           <Text className="mt-1 text-xs text-slate-400">Due in 3 months</Text>
         </View>
         <View className="flex-1 rounded-3xl border border-slate-800 bg-slate-900 p-4">
-          <Text className="text-xs uppercase tracking-widest text-slate-400">Budget</Text>
-          <Text className="mt-2 text-base font-semibold text-white">1,200 INR</Text>
+          <Text className="text-xs uppercase tracking-widest text-slate-400">
+            Budget
+          </Text>
+          <Text className="mt-2 text-base font-semibold text-white">
+            1,200 INR
+          </Text>
           <Text className="mt-1 text-xs text-slate-400">Left this week</Text>
         </View>
       </View>

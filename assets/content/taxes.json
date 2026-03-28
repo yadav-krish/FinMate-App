@@ -1,0 +1,39 @@
+{
+  "id": "taxes",
+  "title": "Understanding Taxes",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "What are Taxes?",
+      "text": "Taxes are compulsory payments made to the government."
+    },
+    {
+      "heading": "Why Taxes Exist",
+      "text": "They fund infrastructure, public services, and development."
+    },
+    {
+      "heading": "Types of Taxes",
+      "text": "Direct: Income tax\nIndirect: GST, sales tax"
+    },
+    {
+      "heading": "Taxable Income",
+      "text": "Taxable income = total income – deductions – exemptions"
+    },
+    {
+      "heading": "Deductions",
+      "text": "Investments and expenses that reduce taxable income."
+    },
+    {
+      "heading": "Tax Planning",
+      "text": "Legally reducing tax through smart financial decisions."
+    },
+    {
+      "heading": "Filing Taxes",
+      "text": "Submit income details, calculate tax, and file returns."
+    },
+    {
+      "heading": "Importance",
+      "text": "Helps with loans, compliance, and financial credibility."
+    }
+  ]
+}

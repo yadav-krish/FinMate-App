@@ -1,0 +1,35 @@
+{
+  "id": "government",
+  "title": "Role of Government in Finance",
+  "type": "lesson",
+  "sections": [
+    {
+      "heading": "Government Role",
+      "text": "The government manages the economy through policies, laws, and regulations."
+    },
+    {
+      "heading": "Impact on Personal Finance",
+      "text": "Taxes, interest rates, subsidies, and regulations affect income and expenses."
+    },
+    {
+      "heading": "Fiscal Policy",
+      "text": "Government spending and taxation used to control economic growth."
+    },
+    {
+      "heading": "Monetary Policy",
+      "text": "Controlled by the central bank to manage money supply and interest rates."
+    },
+    {
+      "heading": "Central Bank",
+      "text": "Regulates money, controls inflation, sets interest rates, and issues currency."
+    },
+    {
+      "heading": "Financial Regulation",
+      "text": "Ensures fair markets and protects consumers from fraud."
+    },
+    {
+      "heading": "Daily Impact",
+      "text": "Government decisions affect prices, jobs, and loan costs."
+    }
+  ]
+}
