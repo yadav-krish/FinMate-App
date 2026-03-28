@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "title": "Active vs Passive Income Basics",
+    "description": "Learn the difference between earning through work and earning through investments or assets.",
+    "tags": ["income", "basics"],
+    "level": "beginner",
+    "estimatedMinutes": 10,
+    "sourceUrl": ""
+  },
+  {
+    "id": "2",
+    "title": "Start Your First Side Hustle",
+    "description": "Identify a skill and learn how to earn your first income through freelancing or small gigs.",
+    "tags": ["income", "side-hustle"],
+    "level": "beginner",
+    "estimatedMinutes": 20,
+    "sourceUrl": ""
+  },
+  {
+    "id": "3",
+    "title": "Understanding Budgeting",
+    "description": "Learn how to track income and expenses and create a basic budget.",
+    "tags": ["budgeting"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "4",
+    "title": "50-30-20 Budget Rule",
+    "description": "Apply the 50-30-20 rule to manage your money effectively.",
+    "tags": ["budgeting", "strategy"],
+    "level": "beginner",
+    "estimatedMinutes": 10,
+    "sourceUrl": ""
+  },
+  {
+    "id": "5",
+    "title": "Saving vs Investing",
+    "description": "Understand the key differences between saving money and investing it.",
+    "tags": ["saving", "investing"],
+    "level": "beginner",
+    "estimatedMinutes": 12,
+    "sourceUrl": ""
+  },
+  {
+    "id": "6",
+    "title": "Power of Compound Interest",
+    "description": "Learn how your money grows over time using compound interest.",
+    "tags": ["investing"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "7",
+    "title": "Types of Investments",
+    "description": "Explore stocks, mutual funds, bonds, and other investment options.",
+    "tags": ["investing"],
+    "level": "intermediate",
+    "estimatedMinutes": 20,
+    "sourceUrl": ""
+  },
+  {
+    "id": "8",
+    "title": "Understanding Credit",
+    "description": "Learn how borrowing works and why credit matters.",
+    "tags": ["credit"],
+    "level": "beginner",
+    "estimatedMinutes": 10,
+    "sourceUrl": ""
+  },
+  {
+    "id": "9",
+    "title": "Improving Your Credit Score",
+    "description": "Discover ways to build and maintain a good credit score.",
+    "tags": ["credit"],
+    "level": "intermediate",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "10",
+    "title": "Bank Accounts Explained",
+    "description": "Learn about savings, current accounts, and fixed deposits.",
+    "tags": ["banking"],
+    "level": "beginner",
+    "estimatedMinutes": 12,
+    "sourceUrl": ""
+  },
+  {
+    "id": "11",
+    "title": "Understanding Taxes",
+    "description": "Learn how income tax and GST work and why taxes are important.",
+    "tags": ["tax"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "12",
+    "title": "Setting Financial Goals",
+    "description": "Learn how to create SMART financial goals for your future.",
+    "tags": ["planning"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "13",
+    "title": "Introduction to Insurance",
+    "description": "Understand how insurance protects you from financial risks.",
+    "tags": ["insurance"],
+    "level": "beginner",
+    "estimatedMinutes": 12,
+    "sourceUrl": ""
+  },
+  {
+    "id": "14",
+    "title": "Risk Management Basics",
+    "description": "Learn how to identify and reduce financial risks.",
+    "tags": ["risk"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "15",
+    "title": "Smart Consumer Skills",
+    "description": "Learn how to make informed purchasing decisions.",
+    "tags": ["consumer"],
+    "level": "beginner",
+    "estimatedMinutes": 10,
+    "sourceUrl": ""
+  },
+  {
+    "id": "16",
+    "title": "Giving Back and Philanthropy",
+    "description": "Understand the importance of donating and helping society.",
+    "tags": ["philanthropy"],
+    "level": "beginner",
+    "estimatedMinutes": 10,
+    "sourceUrl": ""
+  },
+  {
+    "id": "17",
+    "title": "Understanding Loans",
+    "description": "Learn how loans work, including interest and repayment.",
+    "tags": ["loans"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "18",
+    "title": "Government and Economy",
+    "description": "Understand how government policies affect your finances.",
+    "tags": ["economy"],
+    "level": "intermediate",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "19",
+    "title": "Avoiding Online Fraud",
+    "description": "Learn how to protect yourself from scams and identity theft.",
+    "tags": ["security"],
+    "level": "beginner",
+    "estimatedMinutes": 12,
+    "sourceUrl": ""
+  },
+  {
+    "id": "20",
+    "title": "Retirement Planning Basics",
+    "description": "Understand why saving early for retirement is important.",
+    "tags": ["retirement"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "21",
+    "title": "Real Estate Basics",
+    "description": "Learn how buying and investing in property works.",
+    "tags": ["real-estate"],
+    "level": "intermediate",
+    "estimatedMinutes": 20,
+    "sourceUrl": ""
+  },
+  {
+    "id": "22",
+    "title": "Financing Your Education",
+    "description": "Understand scholarships, loans, and ways to fund studies.",
+    "tags": ["education"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "23",
+    "title": "Supply and Demand Basics",
+    "description": "Learn how prices are determined in the economy.",
+    "tags": ["economics"],
+    "level": "beginner",
+    "estimatedMinutes": 12,
+    "sourceUrl": ""
+  },
+  {
+    "id": "24",
+    "title": "Digital Payments and UPI",
+    "description": "Learn how to safely use digital payment apps.",
+    "tags": ["digital-finance"],
+    "level": "beginner",
+    "estimatedMinutes": 10,
+    "sourceUrl": ""
+  },
+  {
+    "id": "25",
+    "title": "Introduction to Cryptocurrency",
+    "description": "Understand what crypto is and its risks.",
+    "tags": ["crypto"],
+    "level": "intermediate",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "26",
+    "title": "Entrepreneurship Basics",
+    "description": "Learn how to start and manage a small business.",
+    "tags": ["business"],
+    "level": "beginner",
+    "estimatedMinutes": 20,
+    "sourceUrl": ""
+  },
+  {
+    "id": "27",
+    "title": "Create a Business Plan",
+    "description": "Understand how to plan a business idea step by step.",
+    "tags": ["business"],
+    "level": "intermediate",
+    "estimatedMinutes": 25,
+    "sourceUrl": ""
+  },
+  {
+    "id": "28",
+    "title": "Emergency Fund Setup",
+    "description": "Learn how to build a safety fund for unexpected events.",
+    "tags": ["saving"],
+    "level": "beginner",
+    "estimatedMinutes": 15,
+    "sourceUrl": ""
+  },
+  {
+    "id": "29",
+    "title": "Diversification Strategy",
+    "description": "Learn how to spread investments to reduce risk.",
+    "tags": ["investing", "risk"],
+    "level": "intermediate",
+    "estimatedMinutes": 20,
+    "sourceUrl": ""
+  },
+  {
+    "id": "30",
+    "title": "Track Your Expenses",
+    "description": "Build a habit of tracking daily expenses for better control.",
+    "tags": ["budgeting"],
+    "level": "beginner",
+    "estimatedMinutes": 10,
+    "sourceUrl": ""
+  }
+]
